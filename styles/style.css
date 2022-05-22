@@ -1,0 +1,63 @@
+li{
+  padding-right: 20px;
+}
+  
+#contact{
+  margin-right: 130px;
+}
+
+#brand{
+  margin-left: 130px;
+}
+
+#navbar{
+  background-color:#fefefe;
+}
+
+#inmain{
+  padding-top: 130px;
+}
+
+@media screen and (max-width:992px) {
+  #main{
+    flex-direction: column;
+  }
+
+  #inmain{
+    padding-top: 30px;
+    text-align: center;
+  }
+  
+}
+
+#cards{
+  text-align: center;
+  padding-top: 50px;
+}
+
+#card{
+  padding: 8rem;
+}
+
+#founder{
+  margin: 10rem;
+}
+
+@media screen and (max-width:992px) {
+  #found{
+    padding-top: 2rem;
+  }
+  
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+#work{
+  padding-top: 3rem;
+}
+
